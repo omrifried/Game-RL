@@ -1,4 +1,4 @@
-# Project: Game AI
+# Project: Game RL
 ## Project Description:
 The project is a Python based project that utilizes the OpenAI gym and gym-retro
 environments to train an agent to play retro video games. The available algorithms
