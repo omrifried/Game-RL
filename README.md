@@ -1,7 +1,7 @@
 # Project: Game AI
 ## Project Description:
 The project is a Python based project that utilizes the OpenAI gym and gym-retro
-environments to train an agent to play retro video games. The possible algorithms
+environments to train an agent to play retro video games. The available algorithms
 for training are a vanilla Deep Q Network (DQN) algorithm, a Double DQN (DDQN) algorithm,
 and a Dueling DDQN algorithm.
 
