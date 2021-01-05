@@ -6,6 +6,6 @@ for training are a vanilla Deep Q Network (DQN) algorithm, a Double DQN (DDQN) a
 and a Dueling DDQN algorithm.
 
 The following videos represent an agent that was trained for 1000 epochs
-using the Dueling DDQN algorithm:
+on each game separately using the Dueling DDQN algorithm:
 <p align="center"><img src="./Gifs/Sonic_DuelDDQN.gif"></p>
 <p align="center"><img src="./Gifs/JourneyEscape_DuelDDQN.gif"></p>
