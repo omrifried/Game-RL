@@ -7,5 +7,5 @@ and a Dueling DDQN.
 
 The following videos represent an agent that was trained for 1000 iterations
 using the Dueling DDQN algorithm:
-<p align="left"><img src="./Gifs/Sonic_DuelDDQN.gif"></p>
-<p align="right"><img src="./Gifs/JourneyEscape_DuelDDQN.gif"></p>
+<p align="center"><img src="./Gifs/Sonic_DuelDDQN.gif"></p>
+<p align="center"><img src="./Gifs/JourneyEscape_DuelDDQN.gif"></p>
