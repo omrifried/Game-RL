@@ -89,7 +89,7 @@ class DQNAgent:
         qTarget = qPredict.clone()
         ## If the game is over, set the dones flag to 0. Otherwise it is a 1
         dones = T.gt(dones, 0)
-        targetPredictNext[dones] = 0.0
+        qPredictNext[dones] = 0.0
         ## Get the reward value of the optimal action in the next state
         qEquation = qPredictNext[batchIndex, maxActions]
         ## If it is a terminal state (i.e. dones = 0), then we only use the reward to update.
