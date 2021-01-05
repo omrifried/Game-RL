@@ -6,6 +6,6 @@ for training are a vanilla Deep Q Network (DQN) algorithm, a Double DQN (DDQN),
 and a Dueling DDQN.
 
 The following videos represent an agent that was trained for 1000 iterations
-using the Double DDQN algorithm:
+using the Dueling DDQN algorithm:
 <p align="left"><img src="./Gifs.Sonic_DuelDDQN.gif"></p>
 <p align="right"><img src="./Gifs/JourneyEscape_DuelDDQN.gif"></p>
