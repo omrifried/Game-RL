@@ -12,7 +12,7 @@ VISUAL = True
 DUEL = True
 DOUBLE = True
 
-## Determine which agent to use
+## Determine which algorithm to use
 if DUEL and DOUBLE:
     from Agents.DUEL_DDQN_Agent import DQNAgent, DQNAgentPlay
 elif DOUBLE and not DUEL:
@@ -21,7 +21,7 @@ else:
     from Agents.DQN_Agent import DQNAgent, DQNAgentPlay
 
 def main():
-    ## Only necessary actions for Agent: Forwards, Right, Left, Backwards. Fast Right, Fast Left
+    ## Only necessary actions for Agent: Forwards, Right, Left, Backwards, Fast Right, Fast Left
     possibleActions = [1, 2, 3, 4, 9, 10]
     if TRAIN:
         env = gym.make('JourneyEscape-v0')
