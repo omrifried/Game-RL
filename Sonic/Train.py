@@ -11,7 +11,7 @@ VISUAL = True
 DUEL = True
 DOUBLE = True
 
-## Determine which agent to use
+## Determine which algorithm to use
 if DUEL and DOUBLE:
     from Agents.DUEL_DDQN_Agent import DQNAgent, DQNAgentPlay
 elif DOUBLE and not DUEL:
