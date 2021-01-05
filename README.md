@@ -2,8 +2,8 @@
 ## Project Description:
 The project is a Python based project that utilizes the OpenAI gym and gym-retro
 environments to train an agent to play retro video games. The possible algorithms
-for training are a vanilla Deep Q Network (DQN) algorithm, a Double DQN (DDQN),
-and a Dueling DDQN.
+for training are a vanilla Deep Q Network (DQN) algorithm, a Double DQN (DDQN) algorithm,
+and a Dueling DDQN algorithm.
 
 The following videos represent an agent that was trained for 1000 iterations
 using the Dueling DDQN algorithm:
